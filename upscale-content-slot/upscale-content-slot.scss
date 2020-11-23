@@ -1,6 +1,106 @@
+
+
 :host {
-	background-color:yellow;
 	
+	background-color:white !important;
+
+	
+
+	.content-slot-component-background {
+		background:none !important;
+			
+	}
+
+
+	::ng-deep upscale-aspect-ratio {
+
+		.celebration {
+			padding-left:10%;
+			padding-right:10%;
+			text-align:center;
+			
+		}
+
+		h1 {
+			color:#000 !important;
+			margin-bottom: 1.2rem;
+			min-height: 1rem;
+			font-stretch: condensed;
+    		line-height: 1.11;
+    		max-width:800px;
+			
+		}
+
+		.greenbutton {
+			background-color:#b7ff00 !important;
+			padding:10px;
+			font-weight:700;
+			border-color:transparent;
+			border-radius: 29px !important;
+    		border-width: 2px;
+    		margin-top:30px;
+    		margin-bottom:30px;
+		}
+		.sharingbuttons {
+
+
+			.sharebtn {
+				width:15%;
+				margin-right:3%;
+				background-color:#ccc;
+				text-align:center;
+				display:inline-block;
+				color:#fff;
+				text-decoration:none;
+				padding: .5em .75em;
+				border-radius: 3px;
+
+				
+			}
+		}
+
+		.column {
+		  float: left;
+		  width: 30%;
+		  margin-right:3%;
+		}
+
+		/* Clear floats after the columns */
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+
+
+		.article-container {
+			background-color:white;
+			text-align:center;
+			margin-bottom:40px;
+			margin-left:10%;
+			.content {
+				display: flex;
+				.text {
+					width: 40%;
+            		text-align: left;
+            		
+				}
+
+				.image {
+					width:50%;
+					background:none !important;
+					
+					img {
+						width:80%;
+					}
+					
+				}
+
+				
+			}
+		}
+
+
+	}
+
 }
-
-
